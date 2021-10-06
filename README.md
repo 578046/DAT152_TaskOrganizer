@@ -20,9 +20,9 @@ The Tasklist API:
     
     - addtaskCallback() - Will write text in the browser console when the user clicks the New task button. (Does not modify the view).
     
-    - changestatusCallback() - Will write a text in the browser console when the user selects a different status and approves the change. The text will contain the id of the                                    task and the selected status. (Does not modify the view).
+    - changestatusCallback() - Will write a text in the browser console when the user selects a different status and approves the change. The text will contain the id of the task and the selected status. (Does not modify the view).
     
-    - deletetaskCallback() - will write a text in the browser console when the user clicks a delete button and approves the delete action in the confirmation window. The text                                will contain the id of the task to delete. (Does not modify the view).
+    - deletetaskCallback() - will write a text in the browser console when the user clicks a delete button and approves the delete action in the confirmation window. The text will contain the id of the task to delete. (Does not modify the view).
     
     - noTask() -  lets the controller code inform the TaskList component that there are no tasks in the task list.
     
